@@ -72,6 +72,7 @@ header{color:$headertext;
                                         transition: 2s ease-out;
                                 }
 }
+//used this for extend
 #comp{background-image:url(_images/photo3.jpg);
         height:676px;
         background-repeat:no-repeat;
@@ -94,6 +95,8 @@ header{color:$headertext;
                         font-size:20px;
                         line-height:30px;}
 }
+
+
 .para{float:right;
         position:relative;}
 .top:hover{opacity:0;}
@@ -101,15 +104,14 @@ header{color:$headertext;
           -webkit-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;}
 
-
+//used extend
 #comp2{background-image:url(_images/photo5.jpg);
         height:500px;
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-attachment: fixed; }
+       @extend #comp;}
 
 //added nesting for resume
-#resume{margin:auto;
+#resume{
+        
         height:700px;
         
 
@@ -144,12 +146,10 @@ header{color:$headertext;
 
 
 
-
+//used extend
 #comp3{background-image:url(_images/photo6.jpg);
         height:500px;
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-attachment: fixed; }
+        @extend #comp;}
 
 //added varible for work background color
 //added nesting for work
@@ -204,15 +204,20 @@ header{color:$headertext;
    
 }
 
+//used mix in for boxes
+@mixin rounded ($width:100%, $radius:20%, $height:200px, $border:15px, $color:#a19178, $style:solid){
+        width:$width;
+        border-radius:$radius;
+        height:$height;
+        border-width:$border;
+        border-color:$color;
+    border-style:$style;}
 
-
-.site{ 
-        width:100%;
-        border-radius:20%;
-        height:200px;
-        border-color:#a19178;
-        border-style: solid;
-        border-width: 15px;
+//included mixin
+.site{ @include rounded;
+       
+        
+        
     
                     :hover{-webkit-transition:border-color 5s ease-out;transition:border-color 5s ease-out;
                         border-color:#442837;}
@@ -278,12 +283,10 @@ header{color:$headertext;
 }
 
 
-
+//used extend
 #comp4{background-image:url(_images/photo7.jpg);
         height:300px;
-        background-repeat:no-repeat;
-      
-        background-attachment: fixed; }
+       @extend #comp;}
 
 .icon{
     width:4%;
