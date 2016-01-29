@@ -1,4 +1,4 @@
-//variables
+//variables -global
 $headertext: white;
 $navbackground:rgba(46, 46, 96, 0.4);
 $navbox:rgb(46, 46, 96);
@@ -8,9 +8,9 @@ $pulsebackground:rgb(46, 46, 96);
 $workbackground:#c5b985;
 $slidebackground:#290b17;
 $workcolor:rgb(46, 46, 96);
-
-
-
+$iconwidth:10%;
+$tabwidth:10%;
+$tappadding:1.5%;
 
 
 
@@ -42,13 +42,14 @@ header{color:$headertext;
    text-align:center;
         }
 
-//added variable for .tab background color and text color
+//added variable for .tab background color text color width and padding
 //added nesting for tap links
+//added math for padding
  .tab{text-align: center;
-        width:10%;
+        width:$tabwidth;
         display:inline-block;
         float:left;
-        padding:1.5%;
+        padding:$tappadding /2;
         color:$navtext;
         border-width:2px;
         border-color:black;
@@ -319,7 +320,10 @@ footer{background-color:darken($workcolor,10);
         padding:2%;
         margin-right:5%;}
  a:link{text-decoration: none;}
-.icons{width:10%;
+
+//added a variable to icon width
+//added math to icon width multiply by two
+.icons{width:$iconwidth *2;
         
         margin:1%;}
 #pulse{-webkit-animation:bounce 5s ease-in-out 2s infinite;animation:bounce 5s ease-in-out 2s infinite;}
