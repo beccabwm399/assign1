@@ -8,14 +8,12 @@ header {
   padding: 2%;
   text-align: center;
   background-repeat: no-repeat; }
-
-header h3 {
-  position: relative;
-  margin-top: 10%; }
-
-header h1 {
-  font-size: 70px;
-  position: relative; }
+  header h3 {
+    position: relative;
+    margin-top: 10%; }
+  header h1 {
+    font-size: 70px;
+    position: relative; }
 
 #nav {
   width: 100%;
@@ -35,24 +33,20 @@ header h1 {
   border-style: solid;
   margin: 1% 4% 2% 6%;
   background-color: #2e2e60; }
-
-.tab a:link {
-  text-decoration: none;
-  color: white; }
-
-.tab a:active {
-  color: white; }
-
-.tab a:visited {
-  color: white; }
-
-.tab a:hover {
-  color: white;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: 2s ease-out;
-  transition: 2s ease-out; }
+  .tab a:link {
+    text-decoration: none;
+    color: white; }
+  .tab a:active {
+    color: white; }
+  .tab a:visited {
+    color: white; }
+  .tab a:hover {
+    color: white;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: 2s ease-out;
+    transition: 2s ease-out; }
 
 #comp {
   background-image: url(_images/photo3.jpg);
@@ -70,15 +64,13 @@ header h1 {
   margin: auto;
   padding: 6%;
   width: 70%; }
-
-#about h1 {
-  text-align: center;
-  font-size: 50px; }
-
-#about p {
-  width: 50%;
-  font-size: 20px;
-  line-height: 30px; }
+  #about h1 {
+    text-align: center;
+    font-size: 50px; }
+  #about p {
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px; }
 
 .para {
   float: right;
@@ -102,27 +94,22 @@ header h1 {
 #resume {
   margin: auto;
   height: 700px; }
-
-#resume h1 {
-  text-align: center;
-  font-size: 50px; }
-
-#resume h1 h2 {
-  color: #2e2e60; }
+  #resume h1 {
+    text-align: center;
+    font-size: 50px; }
+  #resume h1 h2 {
+    color: #2e2e60; }
 
 #pulse {
   background-color: #2e2e60;
   color: white;
   padding: 5%; }
-
-#pulse a:link {
-  color: white; }
-
-#pulse a:active {
-  color: white; }
-
-#pulse a:visited {
-  color: white; }
+  #pulse a:link {
+    color: white; }
+  #pulse a:active {
+    color: white; }
+  #pulse a:visited {
+    color: white; }
 
 .one {
   margin-left: 3%;
@@ -144,9 +131,16 @@ header h1 {
 
 #work {
   height: 1400px;
-  background-color: #c5b985;
+  background-color: #cfc59a;
   color: white;
   padding: 2%; }
+  #work h1 {
+    color: #2e2e60;
+    text-align: center;
+    font-size: 50px; }
+  #work h2 {
+    text-align: center;
+    padding: 2%; }
 
 #slide {
   margin: auto;
@@ -157,28 +151,15 @@ header h1 {
 #wcontent {
   width: 100%;
   margin: auto; }
-
-#work h1 {
-  color: #2e2e60;
-  text-align: center;
-  font-size: 50px; }
-
-#work h2 {
-  text-align: center;
-  padding: 2%; }
-
-#wcontent a:link {
-  text-decoration: none;
-  color: #2e2e60; }
-
-#wcontent a:active {
-  color: #2e2e60; }
-
-#wcontent a:visited {
-  color: #2e2e60; }
-
-#wcontent a:hover {
-  color: #2e2e60; }
+  #wcontent a:link {
+    text-decoration: none;
+    color: #2e2e60; }
+  #wcontent a:active {
+    color: #2e2e60; }
+  #wcontent a:visited {
+    color: #2e2e60; }
+  #wcontent a:hover {
+    color: #2e2e60; }
 
 .web2 {
   width: 20%;
@@ -193,11 +174,10 @@ header h1 {
   border-color: #a19178;
   border-style: solid;
   border-width: 15px; }
-
-.site:hover {
-  -webkit-transition: border-color 5s ease-out;
-  transition: border-color 5s ease-out;
-  border-color: #442837; }
+  .site :hover {
+    -webkit-transition: border-color 5s ease-out;
+    transition: border-color 5s ease-out;
+    border-color: #442837; }
 
 .title {
   text-align: center;
@@ -210,27 +190,28 @@ header h1 {
 .class {
   float: left;
   width: 50%; }
-
-.class h3 {
-  background-color: rgba(46, 46, 96, 0.67);
-  margin: 2%;
-  padding: 1%;
-  text-align: center; }
-
-.class h3:link {
-  text-decoration: none; }
-
-.class h3:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: 2s ease-out;
-  transition: 2s ease-out; }
+  .class h3 {
+    background-color: rgba(46, 46, 96, 0.67);
+    margin: 2%;
+    padding: 1%;
+    text-align: center; }
+  .class h3:link {
+    text-decoration: none; }
+  .class h3:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 2s ease-out;
+    transition: 2s ease-out; }
 
 #contact {
   margin: auto;
   padding: 5%;
   background-color: #7d83a5; }
+  #contact h1 {
+    color: #2e2e60;
+    text-align: center;
+    font-size: 50px; }
 
 #contact form {
   margin: auto;
@@ -243,14 +224,8 @@ header h1 {
   color: #2e2e60;
   font-size: 30px;
   overflow: hidden; }
-
-#contact form li {
-  display: block; }
-
-#contact h1 {
-  color: #2e2e60;
-  text-align: center;
-  font-size: 50px; }
+  #contact form li {
+    display: block; }
 
 #comp4 {
   background-image: url(_images/photo7.jpg);
@@ -264,18 +239,16 @@ header h1 {
   margin: 1%; }
 
 footer {
-  background-color: #2e2e60;
+  background-color: #1d1d3e;
   color: #b19357;
   padding: 2%; }
-
-footer h2 {
-  color: white; }
-
-footer h3 {
-  color: #2e2e60;
-  background-color: #b19357;
-  text-align: center;
-  padding: 5%; }
+  footer h2 {
+    color: white; }
+  footer h3 {
+    color: #2e2e60;
+    background-color: #b19357;
+    text-align: center;
+    padding: 5%; }
 
 #foot {
   margin: auto; }
